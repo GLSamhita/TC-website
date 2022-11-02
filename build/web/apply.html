@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="applystyle.css" type="text/css">
+  <title>NEW TC APPLICATION</title>
+  <h2>APPLICATION FOR TRANSFER CERTIFICATE</h2>
+  <hr>
+</head>
+<body>
+  <form action="apply.jsp" method="POST">
+
+    Name: <input type="text" name="studentname" id="studentname" required>
+    <br><br>
+
+    Class: <select name="classs" id="classs" required>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    (Please note - TC will be provided to all students after completion of Std.12 along with their marksheet, there is no need to apply separately.)
+    <br><br>
+
+    Section: <select name="section" id="section" required>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+    </select>
+    <br><br>
+
+    6-Digit USN: <input type="text" maxlength="6" name="usn" id="usn" required>
+    <br><br>
+
+    Date of Birth: <input type="date" name="dob" id="dob" required>
+    <br><br>
+
+    Gender: 
+    <input type="radio" name="gender" id="gender" value="Male" required>Male
+    <input type="radio" name="gender" id="gender" value="Female" required>Female
+    <input type="radio" name="gender" id="gender" value="Other" required>Other
+    <br><br>
+
+    Current class Teacher: <input type="text" name="classteacher" id="classteacher" required>
+    <br><br>
+
+    Class in which student joined: <input type="text" maxlength="2" name="coj" id="coj" required>
+    <br><br>
+
+    Attendance percentage for the current academic year: <input type="text" maxlength="3" name="attendance" id="attendance" required>
+    <br><br>
+
+    Parent's Name: <input type="text" name="parentname" id="parentname" required>
+    <br><br>
+
+    Parent's Contact Number: <input type="text" maxlength="10" name="phno" id="phno" required>
+    <br><br>
+
+    Reason for applying TC: <input type="text" size="60" name="reason" id="reason" required>
+    <br><br>
+
+    <input  type="submit" value="SUBMIT" class="submitbtn">
+  </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.homepgbtn
+{
+  background-color: #51de14;
+  padding: 10px;
+  border-radius: 12px;
+  width: 300px ;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+.homepgbtn:hover 
+{
+  background-color: #16acc7
+}
+
+h2
+{
+  text-align: center;
+  color: #126116;
+  background-color:darkgrey;
+}
+
+
+.deets
+{
+  background-color: darkgrey;
+  height:100px;
+  width:30%
+}

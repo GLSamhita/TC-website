@@ -1,0 +1,30 @@
+h2
+{
+  color: #126116;
+  background-color:darkgrey;
+  text-align: center;
+}
+
+input[type=text],input[type=date],select
+{
+  border: rgba(0, 0, 0, 0.733) 1px solid;
+}
+
+.submitbtn
+{
+  background-color: #51de14;
+  border-radius: 12px;
+  padding:10px;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+.submitbtn:hover 
+{
+  background-color: #16acc7
+}
+
+body
+  {
+    background-color: gray;
+  }
